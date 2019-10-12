@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29326.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediat", "Mediat\Mediat.csproj", "{71A9E1CE-13ED-43E3-B371-50747E6A3AAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{71A9E1CE-13ED-43E3-B371-50747E6A3AAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71A9E1CE-13ED-43E3-B371-50747E6A3AAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71A9E1CE-13ED-43E3-B371-50747E6A3AAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71A9E1CE-13ED-43E3-B371-50747E6A3AAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A990A9D-559B-486A-A7DF-4CE237C6DD6B}
+	EndGlobalSection
+EndGlobal
