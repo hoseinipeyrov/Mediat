@@ -49,8 +49,8 @@ namespace Mediat
            
             services.AddSingleton<IEventStoreDbContext, EventStoreDbContext>();
             services.AddScoped(typeof(IPipelineBehavior<,>), typeof(RequestPerformanceBehavior<,>));
-            //services.AddScoped(typeof(IPipelineBehavior<,>), typeof(EventLoggerBehavior<,>));
-            //services.AddScoped(typeof(IPipelineBehavior<,>), typeof(TransactionBehavior<,>));
+            services.AddScoped(typeof(IPipelineBehavior<,>), typeof(EventLoggerBehavior<,>));
+            services.AddScoped(typeof(IPipelineBehavior<,>), typeof(TransactionBehavior<,>));
 
 
             services.AddTransient<ICustomerRepository, CustomerRepository>();
